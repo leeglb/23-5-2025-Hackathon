@@ -1,0 +1,87 @@
+
+
+body { 
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+#earth-section {
+    background-color: rgb(0, 0, 0);
+
+}
+
+#earth-section2 {  
+    background-color: rgb(0, 0, 0);
+}
+
+#earthimagediv { 
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+#earthimagediv > img { 
+    height: 600px;
+    width: 600px;
+    transform: rotate(90deg);
+
+    
+}
+
+
+#earth-heading { 
+    padding-top: 200px;
+    font-size: 100px;
+}
+
+.earth-text { 
+    color: white;
+    margin-left: 10rem;
+    
+}
+
+#earth-section-text { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sustainability-title{ 
+
+    text-align: center;
+    
+}
+
+#earth-section-text >  #goal-7-text > .h1text{ 
+
+    font-size: 20px;
+}
+
+#earth-section-text > #goal-7-text > p { 
+    text-align: center;
+}
+
+#mars-section { 
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+#mars-heading { 
+    font-size: 40px;
+    
+}
+
+#marsimagediv { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+#marsimagediv > img { 
+    opacity: 90%;
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
