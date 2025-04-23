@@ -1,37 +1,24 @@
-
-
 body { 
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
     overflow-x: hidden;
-}
-
-#earth-section {
-    background-color: rgb(0, 0, 0);
-
-}
-
-#earth-section2 {  
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
 
 #earthimagediv { 
     display: flex;
     justify-content: center;
-    border: 2px solid white;
+    align-items: center;
 }
 
 #earthimagediv > img { 
-    height: 600px;
-    width: 600px;
-    transform: rotate(90deg);
-
+    height: 700px;
+    width: 700px;
     
 }
 
 
 #earth-heading { 
-    padding-top: 200px;
     font-size: 100px;
 }
 
@@ -41,21 +28,40 @@ body {
     
 }
 
-#earth-section-text { 
+#earthhearth { 
+    background-color: white;
+}
+
+#earth-section-text{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+
+#sustainability-title{ 
+
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+#earth-section-text >  #textdiv{
+    font-size: 12px;
+    width: 50%;
+}
+
+#earthimagedivs { 
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-#sustainability-title{ 
-
-    text-align: center;
-    
-}
-
-#earth-section-text >  #goal-7-text > .h1text{ 
-
-    font-size: 20px;
+#earthimagedivs > img { 
+    width: 45%;
+    border-radius: 20px;
+    margin-left: 20px;
 }
 
 #earth-section-text > #goal-7-text > p { 
@@ -63,25 +69,62 @@ body {
 }
 
 #mars-section { 
-    margin-top: 5rem;
-    margin-left: 10rem;
+    color: white;
 }
 
 #mars-heading { 
     font-size: 40px;
-    
+    text-align: center;
+    color: #FDF6F0;
+}
+
+#mars-section > #mars-text { 
+    text-align: center;
+    color: #FDF6F0;
 }
 
 #marsimagediv { 
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    
 }
 
-#marsimagediv > img { 
-    opacity: 90%;
-    height: 20px;
-    width: 20px;
-    object-fit: cover;
+#marsimagediv > #marsimg { 
+    width: 80%;
+}
+
+#mars-section-text { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mars-section-text > #marstextdiv {
+    width: 33%;
+}
+#mars-section-text > #marstextdiv > h1, p { 
+    text-align: center;
+}
+
+
+#mars-section-text-2 { 
+    padding-top: 40px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+#mars-section-text > #marstextdiv > h1, p { 
+    text-align: center;
+}
+
+#mars-section-text > #angusshit { 
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#finalmessage { 
+    font-size: 100px;
+    color: white;
 }

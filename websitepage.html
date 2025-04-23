@@ -1,57 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <header>
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="device-width, initial-scale=1.0">
         <title><!--Make name for later--></title>
         <link rel="stylesheet" href="styles.css">
-    </header>
+    </head>
 
     <body>
-        <nav id="navbar">
-
-        </nav>
         <div id="earth-section">
-            <div id="earth-section2">
-                <h1 id="earth-heading" class="earth-text">Earth</h1>
-                <h3 class="earth-text">Our Home.</h3>
-                <div id="text">
-                    <h1>Our Goals</h1>
-                </div>
-                <div id="earthimagediv">
-                    <img src="earthimg.jpg">
-                </div>
+            <h1 id="earth-heading" class="earth-text">Earth</h1>
+            <h3 class="earth-text">Our Home.</h3>
+            <div id="text">
+                <h1>Our Goals</h1>
+            </div>
+            <div id="earthimagediv">
+                <img src="earthimg.jpg">
             </div>
         </div>
 
-        <h1 id="sustainability-title">The Sustainability Goals We Need To Achieve:</h1>
+        <div id="earthhearth">
+            <h1 id="sustainability-title">The Sustainability Goals We Need To Achieve:</h1>
+        <div id="earthimagedivs">
+            <img src="microreactor.jpeg">
+            <img src="nuclear.jpeg">
+        </div>
         <div id="earth-section-text">
-            <div id="goal-7-text">
-                <h1 class="h1text">Goal 7: Affordable and Clean Energy</h1>
+            <div id="textdiv">
+                <h1>Goal 7: Affordable and Clean Energy</h1>
                 <p>Micro-reactors represent a cutting-edge, low-emission technology adaptable for off-Earth use.
                     Ensures long-term power supply, without constant resupply
                 </p>
             </div>
-            <div>
+            <div id="textdiv">
                 <h1>Goal 11: Sustainable Cities & Communities</h1>
                 <p>Powering a Mars colony sustainably is key to creating a viable human settlement.
                     Nuclear energy supports infrastructure, agriculture, life support and industries to further develop our colony sustainably.
                     </p>
             </div>
-            <div>
-                <h1>Consideration For Viability</h1>
-                <p></p>
-            </div>
-            <div></div>
         </div>
+        </div>
+        
 
         <div id="mars-section">
             <h1 id="mars-heading" class="mars-text">Mars</h1>
-            <h3 class="mars-text">Our New Home.</h3>
-            
+            <h3 id="mars-text">Our New Home.</h3>
+
+            <div id="marsimagediv">
+                <img src="mars.jpg" id="marsimg">
+            </div>
+
+            <div id="mars-section-text">
+                <div id="marstextdiv">
+                    <h1>Transport Capability:</h1>
+                    <p>Current rockets can deliver approximately 50-100 tonnes, in consideration to crew manning the ship.
+                        Mars missions must reduce payload mass significantly due to energy demands of interplanetary travel.
+                    </p>
+                </div>
+                <div id="marstextdiv">
+                    <h1>Delivery Mechanism:</h1>
+                    <p>Ideally, colonies will be delivered in modular pods.
+                        Requires innovative architecture and efficient energy systems to optimize mass vs. utility.
+                        </p>
+                </div>
+                <div id="marstextdiv">
+                    <h1>Current Mission Planning:</h1>
+                    <p>NASA and commercial partners are actively planning crewed missions to Mars.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div id="mars-section-text-2">
+                <div id="marstextdiv">
+                    <h1>Affordable and Clean Energy</h1>
+                    <p>Energy requirements:
+                        Modeled on the ISS - up to 90 kWh/day per unit
+                        Colony energy use estimated based on population and operations
+                        
+                        Note we did consider the use of the nuclear battery from the mars rover - the NASA-developed MMRTG (multi-mission radioisotope thermoelectric generator). However, the  battery would only produce approximately
+                    </p>
+                    <p>Chosen reactor: MHI IMR Microreactor
+                        Compact design: 3m x 4m, < 40 tons - Mars transport feasible
+                        Energy Produced: between 1-50MWe
+                        Solid-State Core: no liquid coolant, reduced risk, higher reliability
+                        Passive cooling/shutdown: eliminates dependency on external systems: considering an average temperature of -65 degrees celsius on Mars, cooling almost becomes a non-issue
+                        Fuel Efficiency: 25-year fuel life with highly enriched uranium; no refueling needed
+                        </p>
+                        
+                        <img src="shit.png" id="davidsimg">
+                    <div id="angusshit">
+                        <p>Location: Elysium Planitia, within the Cerberus Fossae fissure system (approx. 50,000 years old).
+                            Heat Source: Volcanic activity from mantle upwellings provides geothermal energy.
+                            Water Supply: Sourced from polar ice caps and transported to the plant.
+                            Construction Materials: Mined locally—iron, magnesium, aluminum, calcium, and potassium.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        
+        <p id="finalmessage">Follow me on linkedin: Lee Galbraith</p>   
+        <p id="finalmessage">s/o to myself for the entire code and everyone else for "research"</p>     
         
         <script src="backend.js"></script>
     </body>
+</html>
